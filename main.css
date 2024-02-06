@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+/*nav*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    padding: 10px 20px;
+}
+
+
+.nav-item img{
+    width: 25px;
+}
+
+/*main*/
+.main-container {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #383d4282;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*landing page styling*/
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('https://lh3.googleusercontent.com/pw/ABLVV86kNeFFiTmg-vYmHA-3bGr0J_f2e04NsWjdSF2CufqilW6sZ7RJysbp5W8e3l43TrbsDiPJ8ShvOZrw2bU49ziUbSuG7DRCrHxec99lxlOC1epbonTS-6qY2iUw16n8wL3PC3ScOUGucSEBijH5hbbA5nzZxiXZVEUuYOg2eV_QXVtyKJEJGQoMZ0MyOrlyF0JyO8_dKn0aComM3JSeETR3n8jBO9t48sV909uS6O_WH5E-AhUTE5hC_Hkvv3dBL9oksx4DipODqCYz7R8cclsx5ztTchr7JUA3B2gp_WhiDX28S-lcwXIxlKzZ_99v0lfK1a_HNGhT5cjctx1NzKENOD45-NsExf0m2JcT7NX2WaC6yb5MBn0tCxL7UKoCmQNqzdtMGQcu5WvdpJ_FNugPGX38d86Y9XvSmC_EOe5dI3Z9rnwtu4-gVR2NkTrvDwa6KJvuLT0If1FxplqJDiCUyA_gBJpozMlngGUNAtIIA-Zc8HmvNjz7XX9KOvc2pkYgYasujlDI7o-lb51t6mdhAluUjgVoUQuFn7omucYQN3dYdfFyBwtIp5uQ77GOxzJt7UypHQKewuIf_RpQab3iXb46UcZcfYlQzBH3RIVPc_jubZR31vJ-CiYOdNlGqtUQDNo6F2IFWOREHO3R6VZo0x4Jzi3WPTb_nnGLIlSLD0WFxBOPS4A4ZNFLkMs_gcJzJiyJxwMnqZaXM6KXvtehF2bQcMXX7VibOevVpJWlR0p9SA1yZq5CzlpbNDf9GUv5q2wNNPmijGd6Dqgd1R0FqWZLcVRCC9S7McuIpsR0AT3ZzCMGHbugCw7zBdG4nJjHiOmzsIQejiK1jQQSeabmUCQrF_3qRMlNssF7rByMyUmqMgRhZshNwQuroQi0ywesnvUpfuYwNFimzQ3DewM3dw=w1893-h1418-s-no-gm?authuser=0');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    border: none;
+}
+
+.home h1{
+    font-size: 5rem
+}
+
+.home p{
+    font-size: 3rem;
+}
+
+/*about me styling*/
+.about{
+    display: flex;
+    align-items: center;
+}
+.about-img{
+    flex: 1;
+    padding: 20px;
+}
+
+.about-content{
+    padding: 20px;
+    flex: 2;
+}
+
+@media screen and (max-width: 700px) {
+    #about {
+        flex-direction: column;
+    }
+}
+
+/*portfolio styling*/
+.portfolio{
+    padding: 20px;
+}
+
+.message{
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .message {
+        width: 100%;
+        height: 20vh;
+    }
+}
+
+/*footer styling*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+}
+footer img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 50%;
+}
