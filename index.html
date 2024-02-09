@@ -55,7 +55,7 @@
         <!-- About Me Section -->
             <section class="about" id="about">
                 <div class="about-img img-fluid">
-                    <img src="https://lh3.googleusercontent.com/pw/ABLVV86yOMPKSoHEKUjlHGKt_vnS4KutkCyO08HunINnForr0PyzdmIT5s-K4RaT3Hmn6NFtwGrcWeBty6e1Yb6waw1SIXX-qe4g0rsDPTq2warHt-Ne9khqY5t1s8aQN7BbN4jmf8Wyu9lhQsHZAsPMytqB64Qkb9tQJS1cnGgPyqOndL8LjCHYFOUFMY_0-2B-cPa4bsqKmXHKe-nWhQSPPNtrS0ZFo9Z3lSlPUCXZfT19nPin-MDtZcoMe2EA5YYsSLVVk34de5X4e7k7zndY8wYE6e1AUy3fCv68redzMKz8nVuMEUUivO2KW2uAbGIEDOxcYaiKljLpIHV1CCGpYs2BTaEbbMMLDPL0YIor_zUXZyjdnqyWFN7Ydbhk0HWh7QfQelt38XSo3mIOsr6ZB21mNwp7MzqtuOlRpsacIn3FyjEJ0CLwLjQev1E984xKgnLZz962yLgZshY2p9BlkH7GvbunL2S66QyRb2n77f2L9tmAZor-LDKzhFaNQXRlJVam9cBlKl7bcI5Dwb4Dcm3vdWBA0otT_cyoIkR_WB6cyaSMCCKVZTdLUxKnfuZ65DUag_Kwa7zvimzml5B9X7FqQE6s2PlP1s_FlGGmpbp01HzUc28MDm_ZM0BbdF0yqX6PGOO1004H3e_6RP-k5rtMpPVRR_v-o67upOjS7crnG3_f8iKJki0FKsqikEklgBa9-tL114DkcPXICHinV3VyVTczHNZ9tQYHIldt-HXy2YMeaQA4E-mvq5W1MGRzzCecnN2bKsfkFjLmHbi4xMvw82pIw1y5tE6yREDLLgxa0PMSZnhplCEoG3Qg25mWJcZyHZ3Pl96jM6uTqOxBZj6GKtTQ_80W_kGTjki3LLIys51EqL9GQyprODfcs2kFugyGKjhJ_uw3qje98BtM3xhD=w1064-h1418-s-no-gm?authuser=0" alt="Me" style="max-width: 100%;">
+                    <img src="./Pictures/Me.jpg" alt="Me" style="max-width: 100%;">
                 </div>
 
                 <div class="about-content">
@@ -78,7 +78,7 @@
                         <!-- Template 1 -->
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://placehold.co/600x400" class="card-img-top" alt="Project 1">
+                                <img src="./Pictures/Placeholder.png" class="card-img-top" alt="Project 1">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Project 1</h5>
                                     <p class="card-text">Brief description on what project is and technologies used.</p>
@@ -90,7 +90,7 @@
                         <!-- Template 2 -->
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://placehold.co/600x400" class="card-img-top" alt="Project 2">
+                                <img src="./Pictures/Placeholder.png" class="card-img-top" alt="Project 2">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Project 2</h5>
                                     <p class="card-text">Brief description on what project is and technologies used.</p>
@@ -102,7 +102,7 @@
                         <!-- Template 3 -->
                         <div class="col-md-4">
                             <div class="card">
-                                <img src="https://placehold.co/600x400" class="card-img-top" alt="Project 3">
+                                <img src="./Pictures/Placeholder.png" class="card-img-top" alt="Project 3">
                                 <div class="card-body text-center">
                                     <h5 class="card-title">Project 3</h5>
                                     <p class="card-text">Brief description on what project is and technologies used.</p>
@@ -123,26 +123,32 @@
                 <!-- Email Address -->
                     <p>Email: <a href="mailto:xudenny888@gmail.com">XuDenny888@gmail.com</a></p>
         
-                <!-- Contact Form -->
-                    <form action="#" method="post">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Your Name</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <form action="#" method="post">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="name" name="name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Your Email</label>
+                                        <input type="email" class="form-control" id="email" name="email" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message" class="form-label">Your Message</label>
+                                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Your Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Your Message</label>
-                            <textarea class="message" id="message" name="message" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                    </div>
 
             </section>
-            </div>
-        </div>
+        
     </div>
 
     <footer>
